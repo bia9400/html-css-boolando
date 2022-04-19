@@ -18,9 +18,7 @@ header{
     position: relative;
 }
 footer{
-    width: 100%;
-    position: fixed;
-    z-index: 2;
+    
     bottom: 0;
     background-color: #1A1A1A;
     color: white;
@@ -65,6 +63,7 @@ footer i {
 }
 main img {
     width: 100%;
+    display: block;
 }
 .bold-bigfont{
     font-size: 20px;
@@ -120,9 +119,9 @@ footer i {
 .hover{
     display: none;
 }
-.relative:hover  .hover{
+.column:hover .hover{
     display: block;
 }
-.relative:hover  .default{
+.column:hover .default{
     display: none;
-}
+} 
