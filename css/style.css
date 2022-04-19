@@ -8,16 +8,18 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
 .flex{
     display: flex;
 }
-.column{
-    
-}
+
 .container{
     max-width: 1500px;
     margin: auto;
+}
+.header-position-fix{
     justify-content: space-between;
     align-items: center;
 }
@@ -29,4 +31,16 @@ header i {
     text-decoration: none;
     color: white;
     padding: 0 .2rem;
+}
+.main-container-fix{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.column{
+    flex-basis: calc((100% - 16px*3) / 3);
+    
+}
+main img {
+    width: 100%;
 }
