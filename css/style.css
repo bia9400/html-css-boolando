@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
     background-color: #FF6900;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -12,6 +15,10 @@ header{
     font-size: 20px;
 }
 footer{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
     background-color: #1A1A1A;
     color: white;
     padding-top: 1rem;
