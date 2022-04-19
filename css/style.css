@@ -11,6 +11,12 @@ header{
     font-weight: 600;
     font-size: 20px;
 }
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 .flex{
     display: flex;
 }
@@ -27,10 +33,12 @@ header{
 height: 30px;
 }
 header a,
-header i {
+header i,
+footer a,
+footer i {
     text-decoration: none;
     color: white;
-    padding: 0 .2rem;
+    padding: 0 .3rem;
 }
 .main-container-fix{
     width: 100%;
@@ -57,4 +65,21 @@ main img {
 }
 .column-text-underline{
     text-decoration: line-through;
+}
+footer .container{
+    justify-content: space-between;
+}
+.right-column{
+    text-align: right;
+}
+.footer-column{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-title{
+    font-size: 20px;
+    padding: .5rem 0 ;
+}
+footer i {
+    font-size: 19px;
 }
