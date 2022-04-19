@@ -54,7 +54,7 @@ footer i {
     justify-content: space-between;
     column-gap: 16px;
     row-gap: 3rem;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 .column{
     position: relative;
