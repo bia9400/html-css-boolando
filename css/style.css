@@ -49,6 +49,7 @@ footer i {
     padding: 4rem 0;
 }
 .column{
+    position: relative;
     flex-basis: calc((100% - 16px*3) / 3);
     
 }
@@ -82,4 +83,19 @@ footer .container{
 }
 footer i {
     font-size: 19px;
+}
+.discount{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: .2rem .5rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sostenibilità{
+    background-color: green;
+}
+.position{
+    position: absolute;
+    bottom: 15%;
 }
