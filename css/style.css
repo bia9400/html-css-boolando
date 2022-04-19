@@ -35,7 +35,10 @@ header i {
 .main-container-fix{
     width: 100%;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-between;
+    column-gap: 16px;
+    row-gap: 3rem;
+    padding: 4rem 0;
 }
 .column{
     flex-basis: calc((100% - 16px*3) / 3);
@@ -43,4 +46,15 @@ header i {
 }
 main img {
     width: 100%;
+}
+.bold-bigfont{
+    font-size: 20px;
+    font-weight: 700;
+}
+.colum-text-red{
+    color: #FF0000;
+    font-weight:bold;
+}
+.column-text-underline{
+    text-decoration: line-through;
 }
