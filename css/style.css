@@ -107,3 +107,12 @@ footer i {
     right: 0;
     padding: .3rem .7rem;
 }
+.hover{
+    display: none;
+}
+main .column:hover .hover{
+    display: block;
+}
+main .column:hover .default{
+    display: none;
+}
